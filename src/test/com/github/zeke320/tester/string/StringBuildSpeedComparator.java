@@ -1,5 +1,3 @@
-package test.com.github.zeke320.tester.string;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
@@ -28,7 +26,7 @@ public class StringBuildSpeedComparator {
     list.add(stringBuilder.toString());
   }
 
-  public static void main(String[] args) throws Exception {
+  public static void main(String[] args) {
     List<String> strList1 = new ArrayList<>();
     List<String> strList2 = new ArrayList<>();
     List<String> strList3 = new ArrayList<>();
