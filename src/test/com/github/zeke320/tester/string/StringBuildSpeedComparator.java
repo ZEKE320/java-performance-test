@@ -35,12 +35,21 @@ public class StringBuildSpeedComparator {
 
     long time1 = System.nanoTime();
 
+    // 1: 6474200ns
+    // 2: 7374100ns
+    // 3: 5593600ns
     IntStream.rangeClosed(0, 10000).forEach(n -> runWithPlusOperator(strList1));
     long time2 = System.nanoTime();
 
+    // 1: 6392400ns
+    // 2: 6774300ns
+    // 3: 5722900ns
     IntStream.rangeClosed(0, 10000).forEach(n -> runWithRecursivePlusOperator(strList2));
     long time3 = System.nanoTime();
 
+    // 1: 2423600ns
+    // 2: 2592800ns
+    // 3: 2373400ns
     IntStream.rangeClosed(0, 10000).forEach(n -> runWithStringBuilder(strList3));
     long time4 = System.nanoTime();
 
