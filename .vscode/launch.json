@@ -1,0 +1,35 @@
+{
+  // IntelliSense を使用して利用可能な属性を学べます。
+  // 既存の属性の説明をホバーして表示します。
+  // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Application",
+      "request": "launch",
+      "mainClass": "com.github.zeke320.Application",
+      "projectName": "java-performance-test_742a897f"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "StringBuildSpeedComparator",
+      "request": "launch",
+      "mainClass": "StringBuildSpeedComparator",
+      "projectName": "java-performance-test_742a897f"
+    },
+    {
+      "type": "java",
+      "name": "RoopSpeedComparator",
+      "request": "launch",
+      "mainClass": "RoopSpeedComparator",
+      "projectName": "java-performance-test"
+    }
+  ]
+}
